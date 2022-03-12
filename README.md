@@ -12,6 +12,7 @@ Requirements:
 
 Using Capacity Provider in ECSRun
 
+![](./agent-capacity-prov-final.gif)
 
 ## Setting up Environment 
 
