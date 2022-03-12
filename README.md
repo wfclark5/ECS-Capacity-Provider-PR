@@ -111,7 +111,7 @@ Next run the flow below, since nothing is passed into ECSRun the Agent's ECS Cap
 
 <details><summary>See Execution of Agent</summary>
 
-**Note**: The red error in the snippit below shows that the virtual environment with the PR is installed is active 
+**Note**: The red error in the snippit below shows that the virtual environment associated with this walkthrough is active 
 
 ![agent-capacity-prov](https://user-images.githubusercontent.com/34378029/158037265-a3f4b1f2-d3bc-40b3-be89-3a652b94faa1.gif)
 
