@@ -3,18 +3,14 @@
 The purpose of this tutorial is to walk through how leverage ECS Capacity Providers in run_task_kwargs of ECSAgent and ECSRun. Below you will find the commands and Prefect Flows used. 
 
 Requirements: 
-    -  [Conda](https://docs.conda.io/en/latest/miniconda.html) and Python 3.7+
-    - Existing Prefect Server or Cloud Account
-    - AWS Access 
-    - AWS CLI Installed and Configured
+* [Conda](https://docs.conda.io/en/latest/miniconda.html) and Python 3.7+
+* Existing Prefect Server or Cloud Account
+* AWS Access 
+* AWS CLI Installed and Configured
 
-
-## Example Outcome
+## Example of Expected Outcome
 
 Using Capacity Provider in ECSRun
-
-
-
 
 
 ## Setting up Environment 
@@ -112,6 +108,16 @@ prefect agent ecs start \
 
 Next run the flow below, since nothing is passed into ECSRun the Agent's ECS Capacity Provider will be used to run the flow.
 
+<details><summary>See Execution of Agent</summary>
+
+**Note**: The red error in the snippit below shows that the virtual environment with the PR is installed is active 
+
+![agent-capacity-prov](https://user-images.githubusercontent.com/34378029/158037265-a3f4b1f2-d3bc-40b3-be89-3a652b94faa1.gif)
+
+ 
+</details>
+
+
 <details><summary>See Flow</summary>
 
 
@@ -155,7 +161,9 @@ flow.register(
 )
 ```
 
-<details>
+</details>
+
+
 
 ## Using Capacity Provider via ECSRun when using a Fargate ECS Agent
 
