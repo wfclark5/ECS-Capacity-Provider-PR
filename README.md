@@ -1,6 +1,6 @@
 # Prefect PR 
 
-The purpose of this tutorial is to walk through how leverage ECS Capacity Providers in run_task_kwargs of ECSAgent and ECSRun. Below you will find the commands and Prefect Flows used. 
+The purpose of this tutorial is to walk through how to leverage ECS Capacity Providers in run_task_kwargs of ECSAgent and ECSRun. Below you will find the commands and Prefect Flows used. 
 
 Requirements: 
 * [Conda](https://docs.conda.io/en/latest/miniconda.html) and Python 3.7+
