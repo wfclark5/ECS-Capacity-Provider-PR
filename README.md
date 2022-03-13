@@ -170,7 +170,7 @@ flow.register(
 
 Start the ECS Agent with the default Fargate Launch Type
 
-Note: Ensure The ECS Task Execution Policy has S3 Access
+**Note**: Ensure The ECS Task Execution Policy has S3 Access
 
 ```sh
 prefect agent ecs start \
