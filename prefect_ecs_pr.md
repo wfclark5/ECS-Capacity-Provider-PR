@@ -155,7 +155,7 @@ flow.register(
 )
 ```
 
-<details>
+</details>
 
 ## Using Capacity Provider via ECSRun when using a Fargate ECS Agent
 
