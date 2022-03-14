@@ -163,11 +163,6 @@ flow.register(
 ```
 
 </details>
-<<<<<<< HEAD:prefect_ecs_pr.md
-=======
-
-
->>>>>>> 77e14df70eaff40ca84b68fdd8ccaad14e2d8afa:README.md
 
 ## Using Capacity Provider via ECSRun when using a Fargate ECS Agent
 
